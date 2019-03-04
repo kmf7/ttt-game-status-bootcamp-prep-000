@@ -20,5 +20,5 @@ def full?(board)
 end
 
 def draw?(board)
-  !won_board
+  !won_board(board) && full?(board)
 end
