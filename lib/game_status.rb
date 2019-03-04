@@ -30,9 +30,9 @@ end
 def winner(board)
   won?(board).each do |i|
     if i== "X"
-      "X"
+      return "X"
     else
-      "O"
+     return "O"
     end
   end
 end
