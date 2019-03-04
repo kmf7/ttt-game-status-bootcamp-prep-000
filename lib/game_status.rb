@@ -31,8 +31,10 @@ def winner(board)
   won?(board).each do |i|
     if i== "X"
       return "X"
-    else
+    elsif i == "O"
      return "O"
+    else
+      return "nil"
     end
   end
 end
