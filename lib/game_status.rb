@@ -11,13 +11,10 @@ def won?(board)
   WIN_COMBINATIONS.each do |i|
     if i.all?{|index| board[index] == "X"}
       return i
-      
     elsif i.all?{|index| board[index] == "O"}
      return i 
-     
     else
       false
-      
     end
   end
 end
