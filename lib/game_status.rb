@@ -18,3 +18,7 @@ end
 def full?(board)
   board.none?{|spot| spot =="" || spot == " "}
 end
+
+def draw?(board)
+  
+end
