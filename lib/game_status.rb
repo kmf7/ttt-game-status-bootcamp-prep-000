@@ -29,7 +29,7 @@ end
 
 def winner(board)
   won?(board).each do |i|
-    if i== "X"
+    if i[0]== "X"
       return "X"
     elsif i == "O"
      return "O"
